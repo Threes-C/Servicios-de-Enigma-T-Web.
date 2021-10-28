@@ -38,7 +38,11 @@ jobs:
          name: Main
 
 on: push
-
+C: Require boton de inicio; 
+var; (let\funcion matematicas\
+Tag For (clid DirectedTreament
+Tag-for-under-age-of-consent)
+>/Start withCompletationHandeler: en llamad>
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,4 +52,21 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
+        </Solucionar problemas de seguridad>
+        c
+name: Main
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Release
+        uses: softprops/action-gh-release@v1
 
